@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(216, 200, 235);
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#cabecalho img {
+    width: 100%;
+}
+
+#container {
+    text-align: center;
+}
+
+p {
+    position: relative;
+    cursor: pointer;
+    display: inline;
+    margin-left: 30px;
+    font-family: "Embed code", "sans-serif";
+    margin-bottom: 200px;
+}
+
+#imagem {
+    display: flex;
+    justify-content: center;
+    height: 43vh;
+}
+
+#status, #especie, #origem, #nome{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#nome {
+    
+    margin-top: 60px;
+}
